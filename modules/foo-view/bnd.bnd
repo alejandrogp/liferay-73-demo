@@ -1,0 +1,4 @@
+Bundle-Name: foo-view
+Bundle-SymbolicName: com.liferay.logirail.foo.view
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.logirail.foo.view.constants
