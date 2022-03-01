@@ -1,0 +1,10 @@
+Bundle-Name: FooManager-api
+Bundle-SymbolicName: com.liferay.logirail.foo.manager.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.logirail.foo.manager.exception,\
+	com.liferay.logirail.foo.manager.model,\
+	com.liferay.logirail.foo.manager.service,\
+	com.liferay.logirail.foo.manager.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../FooManager-service/service.xml
